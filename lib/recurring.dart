@@ -2,7 +2,6 @@ library test_campro;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:test_campro/testfolder/TesterfileTohide.dart';
 
 class RecurringSdk extends StatelessWidget {
   final String text;
