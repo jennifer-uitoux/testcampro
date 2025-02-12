@@ -1,7 +1,7 @@
 name: test_campro
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "testingcampro"
+version: 0.0.6
+homepage: https://github.com/jennifer-uitoux/flutter-samples.git
 
 environment:
   sdk: ^3.5.4
