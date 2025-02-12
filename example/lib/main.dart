@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_campro/test_campro.dart';
+import 'package:test_campro/recurring.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,16 +11,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: Center(
-        child: TestCampro(text: "Hello world",),
-      )
-    );
+    return RecurringSdk(text: "Hello world",);
   }
 }
